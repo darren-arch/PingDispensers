@@ -1,6 +1,7 @@
 import subprocess
 import tkinter as tk
 
+# is what is called when tech tries to ping the dispensers
 def Ping():
     ip = IPInput.get()
     fps = int(FPsEntry.get()) + 1
